@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import StoreKit
 
 public protocol Product {
     var storeKitProduct: SKProduct { get }
