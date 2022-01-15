@@ -9,6 +9,7 @@
 import Foundation
 
 public protocol Product {
+    var storeKitProduct: SKProduct { get }
     var productIdentifier: String { get }
     var price: Decimal { get }
     var localizedTitle: String { get }
